@@ -1,5 +1,9 @@
 name: A workflow for my Hello World file
-on: push
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
 
 jobs:
   build:
